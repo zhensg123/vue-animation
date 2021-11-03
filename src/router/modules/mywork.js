@@ -1,28 +1,27 @@
 export default [{
-  path: '/mywork/people',
+  path: '/mywork/csst',
   name: 'mywork',
-  title: '拉人入伙',
+  title: 'css过渡',
   icon: '',
-  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/people.vue')
+  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/csst.vue')
 }, {
-  path: '/mywork/target',
+  path: '/mywork/cssa',
   name: 'mywork',
-  title: '制定目标',
+  title: 'css动画',
   icon: '',
-  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/target.vue')
+  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/cssa.vue')
 }, {
-  path: '/mywork/do',
+  path: '/mywork/cssself',
   name: 'mywork',
-  title: '执行下去',
+  title: '自定义过渡的类名',
   icon: '',
-  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/do.vue')
+  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/cssself.vue')
 }, {
-  path: '/mywork/monitor',
+  path: '/mywork/hook',
   name: 'mywork',
-  title: '保障执行',
+  title: '动画钩子函数',
   icon: '',
-  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/monitor.vue')
+  component: () => import(/* webpackChunkName: "mywork" */ '@/views/mywork/hook.vue')
 }]
 
 // self-jsonstringify self-new  create-js  closure  instanceof  promise-chunk  for-in-break  mywork-currying  self-setinterval
-
